@@ -10,7 +10,7 @@ Click [here](https://jasonadindu.github.io/conectar/) to Subscribe
 <br />
 
 
-![](./assets/img/conectar.png)
+![](./assets/img/conectarimg.png)
 
 
 
