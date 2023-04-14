@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="autor" content="Jason Adindu">
+        <meta name="description" content="About Me">
+        <meta name="keywords" content="html, css, web, web developmet, seo">
+        <title>Conectar</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" href="./assets/img/icon.png" type="image/x-icon">
+        <link rel="stylesheet" href="./assets/style/index.css" media="all">
+        <!-- <script src="./assets/script/index.js" defer></script> -->
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="./assets/img/images/conectar.png" alt=""></a>
+
+            <div class="search-box">
+                <img src="./assets/img/images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <div class="navbar-center">
+        <ul>
+            <li><a href="#" class="active-link"><img src="./assets/img/images/home.png"><span>Home</span></a></li>
+            <li><a href="#"><img src="./assets/img/images/network.png"><span>My Network</span></a></li>
+            <li><a href="#"><img src="./assets/img/images/jobs.png"><span>Jobs</span></a></li>
+            <li><a href="#"><img src="./assets/img/images/message.png"><span>Messaging</span></a></li>
+            <li><a href="#"><img src="./assets/img/images/notification.png"><span>Notifications</span></a>
+            </li>
+        </ul>
+    </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="./assets/img/images/propix.jpeg" class="nav-profile-img">
+
+            </div>
+            
+        </div>
+    </nav>
+
+    <!-- -------- navbar close-->
+
+
+    <div class="container">
+        <!-- -------- left sidebar-->
+        <div class="left-sidebar">
+            <div class="sidebar-profile-box">
+                <img src="./assets/img/images/cover-pic.png" width="100%">
+                <div class="sidebar-profile-info">
+                    <img src="./assets/img/images/propix.jpeg">
+                    <h1>Jason Adindu</h1>
+                    <h3>Software Developer at Tesla</h3>
+                    <ul>
+                        <li>Your profile views <span>77</span></li>
+                        <li>Your post views <span>1234</span></li>
+                        <li>Your connections <span>707</span></li>
+                    </ul>
+                </div>
+                <div class="sidebar-profile-link">
+                    <a href="#"><img src="./assets/img/images/items.png">My items</a>
+                    <a href="#"><img src="./assets/img/images/premium.png">Try Premium</a>
+                </div>
+            </div>
+            <div class="sidebar-activity">
+                <h3>RECENT</h3>
+                <a href="#"><img src="./assets/img/images/recent.png">Online Learning</a>
+                <a href="#"><img src="./assets/img/images/recent.png">Code Better</a>
+                <a href="#"><img src="./assets/img/images/recent.png">Web Development</a>
+                <a href="#"><img src="./assets/img/images/recent.png">Learn Online</a>
+                <a href="#"><img src="./assets/img/images/recent.png">User Interface</a>
+                <a href="#"><img src="./assets/img/images/recent.png">Group Learning</a>
+                <h3>GROUPS</h3>
+                <a href="#"><img src="./assets/img/images/group.png">HTML & CSS Learners</a>
+                <a href="#"><img src="./assets/img/images/group.png">JavaScript & Python Group</a>
+                <a href="#"><img src="./assets/img/images/group.png">Technical Writting Learners</a>
+                <a href="#"><img src="./assets/img/images/group.png">Web Design Group</a>
+                <h3>HASHTAG</h3>
+                <a href="#"><img src="./assets/img/images/hashtag.png">webdevelopment</a>
+                <a href="#"><img src="./assets/img/images/hashtag.png">userinterface</a>
+                <a href="#"><img src="./assets/img/images/hashtag.png">onlinelearning</a>
+                <div class="discover-more-link">
+                    <a href="#">Discover more</a>
+                </div>
+            </div>
+        </div>
+        <!-- -------- main content -->
+        <div class="main-content">
+            <div class="create-post">
+                <div class="create-post-input">
+                    <img src="./assets/img/images/propix.jpeg">
+                    <textarea rows="2" placeholder="Write a post"></textarea>
+                </div>
+                <div class="create-post-links">
+                    <li><img src="./assets/img/images/photo.png">Photo</li>
+                    <li><img src="./assets/img/images/video.png">Video</li>
+                    <li><img src="./assets/img/images/event.png">Event</li>
+                    <li>Post</li>
+                </div>
+            </div>
+            <div class="sort-by">
+                <hr>
+                <p>Sort by: <span>top <img src="./assets/img/images/down-arrow.png"></span></p>
+            </div>
+            <div class="users-post" id="user-feeds"></div>
+        </div>
+
+        
+
+
+        <!-- -------- right sidebar -->
+        <div class="right-sidebar">
+            <div class="sidebar-news">
+                <img src="./assets/img/images/more.png" class="info-icon">
+                <h3>Trending News</h3>
+                <a href="#">High demand for skilled manpower</a>
+                <span>1day ago &middot; 10,934 readers</span>
+
+                <a href="#">Careers growing horizontally too</a>
+                <span>19h ago &middot; 1,934 readers</span>
+
+                <a href="#">Less work visa for Nigeria Doctors</a>
+                <span>1day ago &middot; 7,734 readers</span>
+
+                <a href="#">More hiring = higher confidence?</a>
+                <span>14h ago &middot; 43,123 readers</span>
+
+                <a href="#">Jason Adindu is the world richest</a>
+                <span>17h ago &middot; 347,214 readers</span>
+
+                <a href="#" class="read-more-link">Read more</a>
+            </div>
+            
+
+            <div class="sidebar-ad">
+                <small>Ad  &middot; &middot; &middot;</small>
+                <p>Master the 5 principle of web design</p>
+                <div>
+                    <img src="./assets/img/images/propix.jpeg">
+                    <img src="./assets/img/images/mi-logo.png">
+                </div>
+                <b>Brand and Demand in Apple</b>
+                <a href="#" class="ad-link">Learn More</a>
+            </div>
+
+            <div class="sidebar-useful-link">
+                <a href="#">About</a>
+                <a href="#">Acccessibilty</a>
+                <a href="#">Help Center</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Advertising</a>
+                <a href="#">Get the App</a>
+                <a href="#">More</a>
+
+                <div class="copyright-msg">
+                    <img src="./assets/img/conectar.png">
+                    <p> &#169; 2023. All right reserved</p>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+      <script type="text/javascript" src="./assets/script/users.js"></script>
+        
+</body>
+</html>
+    
